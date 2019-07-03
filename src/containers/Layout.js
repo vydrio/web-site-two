@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
+
 
 class Layout extends Component{
   render(){
@@ -10,7 +12,7 @@ class Layout extends Component{
           <p style={{backgroundColor: '#f7f6f6'}}>Services</p>
           <p style={{backgroundColor: '#ffffff'}}>Contact</p>
         </main>
-        <footer style={{backgroundColor: '#f7f6f6'}}>Footer</footer>
+        <Footer />
       </div>
     );
   }
