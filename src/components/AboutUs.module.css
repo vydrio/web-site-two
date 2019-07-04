@@ -1,11 +1,31 @@
-.Header{
-  text-align: right;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 80px;
-  color: gray;
+.Prime{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.Content{
-  text-align: right;
-  color: gray;
+.Card2{
+  width: 528px;
+  height: 352px;
+  margin: 40px 140px 40px 140px;
+}
+.CardInside{
+  padding: 40px 80px 40px 40px;
+}
+img{
+  margin-top: -5.25rem;
+}
+h2{
+  margin-top: -3rem;
+  margin-left: 8rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: grey;
+}
+.Card p{
+  margin-top: 1rem;
+  text-align: justify; 
+  color: grey;
+}
+.Card span{
+  color: white;
 }
