@@ -29,3 +29,7 @@ h2{
 .Card span{
   color: white;
 }
+img {
+  max-width:100%;
+  height:auto;
+}

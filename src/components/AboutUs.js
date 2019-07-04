@@ -9,6 +9,7 @@ const aboutUs = props => (
     <div className={classes.CardInside}>
       
       <h2>Image</h2>
+      <img src={require('../assets/logo.jpg')} />
       
       
     </div>
