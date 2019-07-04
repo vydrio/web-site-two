@@ -10,6 +10,7 @@ const aboutUs = props => (
       
       <h2>Image</h2>
       
+      
     </div>
   </div>
   <div className={classes.Card}>
