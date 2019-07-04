@@ -1,39 +1,50 @@
 h1{
+  font-size: 5vw;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 80px;
   color: grey;
 }
 .Main{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 6%;
 }
 .Card{
-  width: 528px;
-  height: 352px;
+  width: 50%;
+  height: 20vw;
   border: 3px solid grey;
-  margin: 40px 140px 40px 140px;
+  margin: 4% 8% 4% 8%;
 }
 .CardInside{
-  padding: 40px 80px 40px 40px;
+  padding: 7% 20% 10% 10%;
 }
 img{
-  margin-top: -5.25rem;
+  margin-top: -30%;
+  max-width: 40%;
 }
 h2{
-  margin-top: -3rem;
-  margin-left: 8rem;
+  font-size: 1.6vw;
+  margin-top: -15%;
+  margin-left: 40%;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: grey;
 }
+@media(max-width:500px){
+  h2{
+    margin-top: -25%;
+  }
+}
 .Card p{
-  margin-top: 1rem;
+  font-size: 1vw;
+  margin-top: 8%;
   text-align: justify; 
   color: grey;
 }
-.Card span{
-  color: white;
+@media(max-width:500px){
+  .Card p{
+    margin-top: 15%;
+  }
 }

@@ -19,15 +19,12 @@ const services = props => (
       <div className={classes.Card}>
         <div className={classes.CardInside}>
           <img src={retail} alt="Web and Mobile application" />
-          <h2>Retail and <span>XXXXX</span> E-commerce</h2>
+          <h2>Retail and Ecommerce</h2>
           <p>We help our clients sell globally by providing innovative and customer-centric solutions to maximize efficiency and productivity to the entire ecommerce experience through seamless integration of flexible and scalable ecommerce solutions to both ends of supply and demand, generating online growth and success.</p>
         </div>
       </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    
     <div className={classes.Main}>
       <div className={classes.Card}>
         <div className={classes.CardInside}>
@@ -39,7 +36,7 @@ const services = props => (
       <div className={classes.Card}>
         <div className={classes.CardInside}>
           <img src={ux} alt="Web and Mobile application" />
-          <h2>UI/UX <span>XXXXX</span> Design</h2>
+          <h2>UI/UX Design</h2>
           <p>With a refined approach to the customer experience, we identify the perfect balance between design and functionality to produce authentic and frictionless designs, revolving around an intuitive interface and a customizable experience that reflects your brand's story. Your site will benefit from increase customer loyalty, higher conversion rates and lowered abandon rates.</p>
         </div>
       </div>
