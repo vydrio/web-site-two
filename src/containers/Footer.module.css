@@ -14,12 +14,9 @@
 .Line{
 	border-bottom: 1px solid grey;
 	width: 128px;
-	margin: 16px auto;
+	margin: 15px auto;
 }
 
-.Icons{
-	display: flex;
-	justify-content: center;
-}
+
 
 
