@@ -13,12 +13,8 @@ const aboutUs = props => (
     </div>
   </div>
   <div className={classes.Card2}>
-    <div className={classes.CardInside}>
-      
-      <h2>Image</h2>
+    <div className={classes.CardInside1}>
       <img src={require('../assets/logo.jpg')} />
-      
-      
     </div>
   </div>
   
