@@ -12,9 +12,7 @@ class Footer extends Component {
         return (
             <div className={classes.Main}>
                 <div  className={classes.Footer}Footer>
-                    <div className={classes.Test}>About Us</div>
-                    <div className={classes.Test}>Services</div>
-                    <div className={classes.Test}>Contact</div> 
+                    <div>About Us | Services | Contact</div>
                 </div>
                 <div className={classes.Line}></div>
                 <div className={classes.Icons}>
