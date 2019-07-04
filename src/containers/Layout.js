@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Services from '../components/Services';
+import AboutUs from '../components/AboutUs';
 
 class Layout extends Component{
   render(){
@@ -7,7 +8,7 @@ class Layout extends Component{
       <div>
         <main>
           <p style={{backgroundColor: '#75a9f9'}}>NavBar</p>
-          <p style={{backgroundColor: '#ebebeb'}}>About us</p>
+          <AboutUs />
           <Services />
           <p style={{backgroundColor: '#ffffff'}}>Contact</p>
         </main>
