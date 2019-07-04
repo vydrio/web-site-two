@@ -1,3 +1,10 @@
+.Header h1{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 6.4vw;
+  color: gray;
+}
 .Prime{
   width: 100%;
   display: flex;
@@ -9,7 +16,7 @@
   margin: 40px 140px 40px 140px;
 }
 .CardInside{
-  padding: 40px 80px 40px 40px;
+  padding: 40px 100px 40px 110px;
 }
 img{
   margin-top: -5.25rem;
@@ -21,10 +28,12 @@ h2{
   font-weight: 400;
   color: grey;
 }
-.Card p{
+.Card p {
+  font-size: 1.2vw;
   margin-top: 1rem;
   text-align: justify; 
   color: grey;
+  
 }
 .Card span{
   color: white;
