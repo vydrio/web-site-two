@@ -6,7 +6,7 @@ import software from '../assets/settings.png';
 import ux from '../assets/dating.png';
 
 const services = props => (
-  <div style={{backgroundColor: '#f7f6f6'}}>
+  <div>
     <h1 className={classes.Tittle}>Services</h1>
     <div className={classes.Main}>
       <div className={classes.Card}>
