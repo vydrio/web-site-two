@@ -1,4 +1,4 @@
-h1{
+.Tittle{
   font-size: 5vw;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -20,11 +20,11 @@ h1{
 .CardInside{
   padding: 7% 20% 10% 10%;
 }
-img{
+.Main img{
   margin-top: -30%;
   max-width: 40%;
 }
-h2{
+.Main h2{
   font-size: 1.6vw;
   margin-top: -15%;
   margin-left: 40%;
@@ -32,19 +32,56 @@ h2{
   font-weight: 400;
   color: grey;
 }
-@media(max-width:500px){
-  h2{
-    margin-top: -25%;
-  }
-}
 .Card p{
   font-size: 1vw;
   margin-top: 8%;
   text-align: justify; 
   color: grey;
 }
-@media(max-width:500px){
-  .Card p{
-    margin-top: 15%;
+
+
+@media(max-width: 600px){
+  .Main{
+    display: none;
   }
+  .Tittle{
+    font-size: 8vw;
+  }
+}
+@media(min-width: 601px){
+  .Mainx{
+    display: none;
+  }
+}
+
+
+.Mainx{
+  width: 100%;
+}
+.Cardx{
+  width: 60%;
+  height: 30vw;
+  border: 1px solid grey;
+  margin: 35px auto 30px;
+}
+.CardInsidex{
+  padding: -0% 10% 10% 10%;
+}
+.Mainx img{
+  margin-top: -20px;
+  max-width: 30%;
+}
+.Mainx h2{
+  font-size: 3vw;
+  margin-top: -18.5%;
+  margin-left: 40%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: grey;
+}
+.Cardx p{
+  font-size: 2vw;
+  margin-top: 8%;
+  text-align: justify; 
+  color: grey;
 }
