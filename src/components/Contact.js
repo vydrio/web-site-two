@@ -7,17 +7,17 @@ export default class Contact extends Component {
         <div className='row white'>
           <div className='col s12 center-align'>
             <div className='section-title' style={{ textAlign: 'center' }}>
-              <h2 style={{ fontSize: '25px' }} className='head-title blue'>
-                Contact Us
-              </h2>
-              <span
+              <h1
                 style={{
-                  backgroundColor: 'grey',
-                  display: 'block',
-                  height: '.5px'
+                  fontSize: '5vw',
+                  fontFamily: 'Lato, sans-serif',
+                  color: 'grey',
+                  fontWeight: 300
                 }}
-              />
-
+                className='head-title blue'
+              >
+                Contact Us
+              </h1>
               <div
                 className='contac-info'
                 style={{
@@ -31,7 +31,7 @@ export default class Contact extends Component {
                     position: 'relative',
                     left: '350px',
                     top: '35px',
-                    backgroundColor: 'brown',
+                    backgroundColor: 'white',
                     display: 'block',
                     blockSize: '125px',
                     width: '190px'
@@ -67,13 +67,46 @@ export default class Contact extends Component {
                   and we will get in touch with you as soon as possible
                 </span>
               </div>
-              <div className='forms' style={{ display: 'block', position: 'relative', bottom: '100px' }}>
+              <div
+                className='forms'
+                style={{
+                  display: 'block',
+                  position: 'relative',
+                  bottom: '100px'
+                }}
+              >
                 <form>
-                  <input placeholder='Message' style={{ width: '195px', blockSize: '60px', borderRadius: '.3rem', fontSize: '30px', textAlign: 'center' }}/>
-                  <br/>
-                  <input placeholder='Email Address' style={{ fontSize: '30px', textAlign: 'center' }} />
-                  <input placeholder='Full Name' style={{ fontSize: '30px', textAlign: 'center'}}/>
-                  <span className='btn' style={{ background: 'blue', borderRadius: '.4rem', position: 'relative' }}><a href='#' style={{ textShadow: 'red'}}>Send</a></span>
+                  <input
+                    placeholder='Message'
+                    style={{
+                      width: '195px',
+                      blockSize: '60px',
+                      borderRadius: '.3rem',
+                      fontSize: '30px',
+                      textAlign: 'center'
+                    }}
+                  />
+                  <br />
+                  <input
+                    placeholder='Email Address'
+                    style={{ fontSize: '30px', textAlign: 'center' }}
+                  />
+                  <input
+                    placeholder='Full Name'
+                    style={{ fontSize: '30px', textAlign: 'center' }}
+                  />
+                  <span
+                    className='btn'
+                    style={{
+                      background: 'blue',
+                      borderRadius: '.4rem',
+                      position: 'relative',
+                    }}
+                  >
+                    <a href='#' style={{ textShadow: 'red' }}>
+                      Send
+                    </a>
+                  </span>
                 </form>
               </div>
             </div>
