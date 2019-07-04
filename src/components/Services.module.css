@@ -40,6 +40,11 @@
 }
 
 
+@media(max-width: 1000px){
+  .Card {
+    border: 2px solid grey;
+  }
+}
 @media(max-width: 600px){
   .Main{
     display: none;
