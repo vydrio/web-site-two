@@ -1,0 +1,39 @@
+.Main {
+	background-color: #f7f6f6;
+	text-align:center;
+}
+.Footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-size: 2vw;
+} 
+.Test {
+	margin: 32px 32px 0 0;
+}
+.Line{
+	border-bottom: 1px solid grey;
+	width: 12vw;
+	margin: 15px auto;
+}
+.Main img{
+	margin: 10px;
+	max-width: 2.5vw;
+}
+@media(max-width: 600px){
+	.Main img{
+			max-width: 6vw;
+			transform: scale(0.6);
+			margin: 0 5px 0 0px;
+	}
+	.Footer{
+			font-size: 3vw;
+	}
+	.Line{
+			width: 18vw;
+	}
+}
+
+
+
+
