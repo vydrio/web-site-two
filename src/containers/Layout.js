@@ -10,7 +10,6 @@ class Layout extends Component{
       <div>
         <main>
           <NavBar />
-          <p style={{backgroundColor: '#75a9f9'}}>NavBar</p>
           <p style={{backgroundColor: '#ebebeb'}}>About us</p>
           <Services />
           <Contact/>

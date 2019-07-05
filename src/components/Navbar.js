@@ -8,13 +8,26 @@ class Navbar extends React.Component{
     render() {
         return (
             <div className="navbar">
-              <a href="#" className="logo">Vydrio</a>
-              <ul className="nav">
-                <li><a href="#home">home </a></li>
-                <li><a href="#about">about </a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#Contact">Contact</a></li>
-              </ul>
+            <nav>
+               <ul>
+                    <li> 
+      
+                         <a href="#aboutMe"> HOME </a>
+                    </li>
+                    <li>
+     
+                        <a href="#projects"> ABOUT </a>
+                    </li>
+                     <li>
+      
+                        <a href="#cv"> SERVICES </a>
+                    </li>
+                    <li>
+      
+                        <a href="#contacts"> Contact </a>
+                    </li>
+            </ul>
+            </nav>
 
               <div className="home-area" id="home"></div>
               <div className="about-area" id="about"></div>
