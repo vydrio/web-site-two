@@ -1,11 +1,11 @@
-.Header h1{
+.Title {
+  font-size: 5vw;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 6.4vw;
-  color: gray;
+  color: black;
 }
-.Prime{
+.Main2{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -13,34 +13,34 @@
 .Card2{
   width: 528px;
   height: 352px;
-  margin: 40px 140px 40px 140px;
+  margin: 70px 140px -0px 140px;
 }
-.CardInside{
-  padding: 40px 100px 40px 110px;
+.CardContent{
+  padding: 40px 100px 40px 100px;
 }
-img{
-  margin-top: -5.25rem;
-}
-h2{
-  margin-top: -3rem;
-  margin-left: 8rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  color: grey;
-}
-.Card p {
-  font-size: 1.2vw;
-  margin-top: 1rem;
+
+.Card1 p {
+  font-size: 1vw;
+  margin-top: 8%;
   text-align: justify; 
-  color: grey;
-  
+  color: black;
 }
 .Card span{
   color: white;
 }
-.CardInside1 img {
+.CardContent2 img {
   width:170%;
   height:25vw;
   margin-top: -0rem;
-  margin-left: -8rem;
+  margin-left: -8.4rem;
 }
+
+@media(max-width: 600px){
+  .Main2{
+    display: none;
+  }
+  .Title{
+    font-size: 8vw;
+  }
+}
+
