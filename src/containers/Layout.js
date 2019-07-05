@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Contact from '../components/Contact'
 import Services from '../components/Services';
+import AboutUs from '../components/AboutUs';
 import Footer from './Footer';
 
 class Layout extends Component{
@@ -9,7 +10,7 @@ class Layout extends Component{
       <div>
         <main>
           <p style={{backgroundColor: '#75a9f9'}}>NavBar</p>
-          <p style={{backgroundColor: '#ebebeb'}}>About us</p>
+          <AboutUs />
           <Services />
           <Contact/>
         </main>
