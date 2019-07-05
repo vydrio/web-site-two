@@ -14,9 +14,12 @@
 .Card{
   width: 50%;
   height: 20vw;
-  border: 3px solid grey;
+  border: 3px solid black;
   margin: 4% 8% 4% 8%;
   background-color: white;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .CardInside{
   padding: 7% 20% 10% 10%;
@@ -44,6 +47,9 @@
 @media(max-width: 1000px){
   .Card {
     border: 2px solid grey;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
   }
 }
 @media(max-width: 600px){
@@ -69,6 +75,9 @@
   height: 30vw;
   border: 1px solid grey;
   margin: 35px auto 30px;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
 }
 .CardInsidex{
   padding: -0% 10% 10% 10%;
