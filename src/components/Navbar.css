@@ -15,7 +15,7 @@ li{
   
   nav{
     width: 100vw;
-    background-color: #D6EFFF;
+    background-color:inherit;
   }
   
   ul{
@@ -56,7 +56,7 @@ li{
       
       padding: 2vw;
       font-size: 3vh;
-      background-color: #AFE0FF;
+      background-color:inherit;
       border: none;
       outline: none;
       cursor: pointer;
