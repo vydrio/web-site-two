@@ -10,6 +10,7 @@ class Navbar extends React.Component{
             <div className="navbar">
             <nav>
                <ul>
+                <button> 🞬 </button>
                     <li> 
       
                          <a href="#aboutMe"> HOME </a>
