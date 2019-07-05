@@ -17,6 +17,9 @@
   border: 3px solid black;
   margin: 4% 8% 4% 8%;
   background-color: white;
+}
+.Card:hover{
+  transform: scale(1.02);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -47,6 +50,8 @@
 @media(max-width: 1000px){
   .Card {
     border: 2px solid grey;
+  }
+  .Card:hover{
     -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
@@ -75,6 +80,9 @@
   height: 30vw;
   border: 1px solid grey;
   margin: 35px auto 30px;
+}
+.Cardx:hover{
+  transform: scale(1.015);
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);

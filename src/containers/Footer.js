@@ -10,7 +10,7 @@ import Linkedin from '../assets/linkedin.png';
 class Footer extends Component {
     render() {
         return (
-            <div className={classes.Main}>
+            <footer className={classes.Main}>
                 <div  className={classes.Footer}Footer>
                     <div>About Us | Services | Contact</div>
                 </div>
@@ -22,7 +22,7 @@ class Footer extends Component {
                     <img src={Github} alt="github" />
                     <img src={Linkedin} alt="linkedin" />
                 </div>
-            </div>
+            </footer>
         );
     }
 }
