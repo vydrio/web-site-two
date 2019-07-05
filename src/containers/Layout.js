@@ -3,13 +3,14 @@ import Contact from '../components/Contact'
 import Services from '../components/Services';
 import AboutUs from '../components/AboutUs';
 import Footer from './Footer';
+import NavBar from '../components/Navbar'
 
 class Layout extends Component{
   render(){
     return(
       <div>
         <main>
-          <p style={{backgroundColor: '#75a9f9'}}>NavBar</p>
+          <NavBar />
           <AboutUs />
           <Services />
           <Contact/>
