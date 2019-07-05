@@ -1,76 +1,66 @@
 li{
-    list-style: none;
-    margin: 0 2vw;
+    list-style-type: none;
+    margin: 2vw 0;
+    
     font-size: 3vh;
-}
-a{
+  }
+  
+  a{
     text-decoration: none;
+    color: black;
+    font-family: monospace;
+  
     padding: 2vw;
-}
-a:hover{
-    background-color: #c6e9ff;
-}
-nav{
+  }
+  
+  nav{
     width: 100vw;
-    background-color:inherit;
-}
-ul{
+    background-color: #D6EFFF;
+  }
+  
+  ul{
+    display: block;
     margin: 0;
     padding: 0;
-    display: flex;
-}
-body{
-    margin: 0;
-}
-
-
-
-@media only screen and (max-width: 500px) {
-    /*shows elements in a column*/
-    ul{
-      flex-direction: column;
-    }
     
-    /* deletes margin on top or bottom of the a tag*/
-    li{
-      margin: 0;
-    }
-   /* makes sure that the a tag will take the entire screen*/
-    a{
-      display: block;
-    }
+    display: flex;  
+  }
+  
+  body{
+    margin: 0;
   }
   
   button{
     display: none;
-    background-color: inherit;
   }
-
-   
-    @media only screen and (max-width: 500px) {
-       
-       button{
-         /*makes the button visible*/
-         display: block;
-         
-         /*since we are here, we can style it a little bit!*/
-         padding: 2vw;
-         font-size: 3vh;
-         background-color: #AFE0FF;
-         border: none;
-         
-         /*outline none removes the default blue border that appears anytime you click on the button*/
-         outline: none;
-         
-         cursor: pointer;
-       }
-     }
-
-     button{
-        display: block;
+  
+  a:hover{
+    background-color: #C6E9FF;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    ul{
+      flex-direction: column;
+    }
     
-        cursor: pointer;
-        
-        /*this put the button on the left*/
-        align-self: flex-start;
-      }
+    a{
+      display: block;
+    }
+    
+    li{
+      margin: 0;
+    }
+    
+    button{
+      display: block;
+      
+      padding: 2vw;
+      font-size: 3vh;
+      background-color: #AFE0FF;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      
+      align-self: flex-start;
+    }
+  }
