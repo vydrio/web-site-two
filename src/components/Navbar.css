@@ -43,6 +43,7 @@ body{
   
   button{
     display: none;
+    background-color: inherit;
   }
 
    
