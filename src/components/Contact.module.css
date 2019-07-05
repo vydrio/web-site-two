@@ -1,0 +1,39 @@
+.Tittle{
+  font-size: 5vw;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: grey;
+}
+.Main{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 6% auto;
+}
+.Map{
+  margin-right: 6%;
+}
+.Map img{
+  width: 20vw;
+}
+.PartTwo{
+  margin-top: 4.75%;
+}
+.PartTwo p{
+  font-size: 1.5vw
+}
+.Sentences{
+  display: flex;
+}
+.Sentences img{
+  width: 2vw;
+  height: 2vw;
+  margin-top: 1.25vw;
+  margin-right: 16px;
+}
+@media(max-width: 600px){
+  .Tittle{
+    font-size: 8vw;
+  }
+}
