@@ -1,0 +1,91 @@
+.Main{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin: 8vw auto;
+}
+
+.Tittle{
+  font-size: 5vw;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color:white;
+}
+
+.Main p{
+  color: white;
+  text-align: justify;
+  font-size: 1.5vw;
+}
+
+.Line{
+  border-bottom: 1px solid white;
+	width: 12vw;
+	margin: 3vw auto 0;
+}
+.Main img{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  max-width: 34.5vw;
+  max-height: 30vw;
+}
+@media(max-width: 1500px){
+  .Main img{
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  }
+}
+@media(max-width: 1100px){
+  .Main img{
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  }
+}
+@media(max-width: 600px){
+  .Main{
+    display: none;
+  }
+}
+@media(min-width: 600px){
+  .Mainx{
+    display: none;
+  }
+}
+
+.Mainx{
+  width: 65%;
+  margin: 8vw auto;
+}
+
+.Mainx img{
+  max-width: 34.5vw;
+  max-height: 30vw;
+}
+
+.Card1x {
+  width: 34.5vw;
+  margin: 10vw auto
+}
+
+.Tittlex{
+  font-size: 8vw;
+  text-align: center;
+  color:grey;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.Mainx p{
+  color: gray;
+  text-align: justify;
+  font-size: 3.5vw;
+  padding-bottom: 3vw
+}
+.Linex{
+  border-bottom: 1px solid grey;
+	width: 18vw;
+  margin: 3vw auto 0;
+}
