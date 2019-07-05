@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import Contact from '../components/Contact'
 import Services from '../components/Services';
 import Footer from './Footer';
+import NavBar from '../components/Navbar'
 
 class Layout extends Component{
   render(){
     return(
       <div>
         <main>
+          <NavBar />
           <p style={{backgroundColor: '#75a9f9'}}>NavBar</p>
           <p style={{backgroundColor: '#ebebeb'}}>About us</p>
           <Services />
