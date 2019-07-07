@@ -1,0 +1,45 @@
+.Navb{
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+.Navb img{
+  width: 80%;
+  margin-left: 1vw;
+}
+.aDiv{
+  margin: 0.75vw 3.5vw 0 0;
+}
+.Navb a{
+  padding: 1vw 2vw;
+  margin: 1.5vw;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.Navb a:hover{
+  background-color: rgba(240, 240, 240, 0.15)
+}
+@media(max-width: 1000px){
+  .Navb img{
+    width: 60%;
+  }
+  .Navb a{
+    font-size: 2vw;
+    margin: 0.5vw;
+  }
+}
+@media(max-width: 600px){
+  .aDiv{
+    margin: 1vw auto 0 ;
+  }
+  .longLogoDiv{
+    display: none;
+  }
+  .Navb a{
+    font-size: 5vw;
+    font-weight: 500;
+  }
+}
