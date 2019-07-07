@@ -9,7 +9,7 @@ import mail from '../assets/close-envelope.png';
 export default class Contact extends Component {
   render() {
     return (
-      <div style={{marginTop: '-2%'}}>
+      <div id="contact" style={{marginTop: '-2%'}}>
         <h1 className={classes.Tittle}>Contact us</h1>
         <div className={classes.Main}>
           <div className={classes.Map}>

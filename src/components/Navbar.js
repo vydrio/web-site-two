@@ -1,58 +1,21 @@
 import React from 'react';
-import './Navbar.css'
-import $ from 'jquery';
+import classes from './Navbar.module.css'
+import longLogo from '../assets/longLogo.png';
 
-
-/* only execute this script when the document is ready */
-$(document).ready(function(){
-    /* function called when you click of the button */
-    $("button").click(function(){
-        
-        /* this if else to change the text in the button */
-        if($("button").text() == "☰"){
-         $("button").text("🞬");
-        }else{
-          $("button").text("☰");
-        }
-      
-      /* this function toggle the visibility of our "li" elements */
-      $("li").toggle("slow");
-    });
-  });
 class Navbar extends React.Component{
-    render() {
-        return (
-            <div className="navbar">
-            <nav>
-               <ul>
-                <button> 🞬 </button>
-                    <li> 
-      
-                         <a href="#aboutMe"> HOME </a>
-                    </li>
-                    <li>
-     
-                        <a href="#projects"> ABOUT </a>
-                    </li>
-                     <li>
-      
-                        <a href="#cv"> SERVICES </a>
-                    </li>
-                    <li>
-      
-                        <a href="#contacts"> Contact </a>
-                    </li>
-            </ul>
-            </nav>
-
-              <div className="home-area" id="home"></div>
-              <div className="about-area" id="about"></div>
-              <div className="services-area" id="services"></div>
-              <div className="Contact-area" id="Contact"></div>
-            </div>
-           
-            
-        );
-    }
+  render() {
+    return (
+      <nav className={classes.Navb}>
+        <div className={classes.longLogoDiv}>
+          <img src={longLogo} alt="Long Vydr.io logo" />
+        </div>
+        <div className={classes.aDiv}>
+          <a href="#aboutUs">About us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    );
+  }
 }
  export default Navbar;

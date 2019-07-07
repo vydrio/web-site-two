@@ -74,18 +74,18 @@
 .Tittlex{
   font-size: 8vw;
   text-align: center;
-  color:grey;
+  color:black;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 .Mainx p{
-  color: gray;
+  color: black;
   text-align: justify;
   font-size: 3.5vw;
   padding-bottom: 3vw
 }
 .Linex{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid black;
 	width: 18vw;
   margin: 3vw auto 0;
 }

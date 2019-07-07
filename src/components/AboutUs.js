@@ -3,7 +3,7 @@ import classes from './AboutUs.module.css';
 import vLogo from '../assets/vLogo.png';
 
 const aboutUs = props => (
-  <div>
+  <div id="aboutUs">
     <div className={classes.Main}>
       <div className={classes.Card1}>
         <div style={{marginTop: '-3vw', padding: '0 3vw 0'}}>
@@ -12,7 +12,9 @@ const aboutUs = props => (
           <div className={classes.Line}></div>
         </div>
       </div>
-      <img src={vLogo} alt='Vydr.io Logo'/>
+      <div>
+        <img src={vLogo} alt='Vydr.io Logo'/>
+      </div>
     </div>
 
     <div className={classes.Mainx}>
