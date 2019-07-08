@@ -26,11 +26,11 @@
 @media(max-width: 600px){
 	.Main img{
 			max-width: 6vw;
-			transform: scale(0.6);
-			margin: 0 5px 0 0px;
+			transform: scale(0.8);
+			margin: 0 16px 0;
 	}
 	.Footer{
-			font-size: 3vw;
+			font-size: 4.5vw;
 	}
 	.Line{
 			width: 18vw;
