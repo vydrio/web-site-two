@@ -2,7 +2,7 @@
   font-size: 5vw;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: black;
 }
 .Main{
@@ -87,10 +87,10 @@
   width: 100%;
 }
 .Cardx{
-  width: 60%;
-  height: 30vw;
+  width: 80%;
+  height: 64vw;
   border: 1px solid black;
-  margin: 35px auto 30px;
+  margin: 64px auto 30px;
 }
 /*.Cardx:hover{
   transform: scale(1.015);
@@ -106,16 +106,16 @@
   max-width: 30%;
 }
 .Mainx h2{
-  font-size: 3vw;
+  font-size: 4.5vw;
   margin-top: -18.5%;
   margin-left: 40%;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
 }
 .Cardx p{
-  font-size: 2vw;
-  margin-top: 8%;
+  font-size: 3.5vw;
+  margin-top: 12%;
   text-align: justify; 
   color: black;
 }

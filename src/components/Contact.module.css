@@ -36,4 +36,17 @@
   .Tittle{
     font-size: 8vw;
   }
+  .Map img{
+    width: 30vw;
+    margin-top: 10px;
+  }
+  .PartTwo p{
+    font-size: 3vw
+  }
+  .Sentences img{
+  width: 4vw;
+  height: 4vw;
+  margin-top: 2.5vw;
+  margin-right: 4px;
+  }
 }
