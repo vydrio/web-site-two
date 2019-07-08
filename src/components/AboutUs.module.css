@@ -62,13 +62,14 @@
 }
 
 .Mainx img{
-  max-width: 34.5vw;
-  max-height: 30vw;
+  max-width: 100%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .Card1x {
-  width: 34.5vw;
-  margin: 10vw auto
+  margin: 20px;
 }
 
 .Tittlex{
@@ -76,7 +77,7 @@
   text-align: center;
   color:black;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 .Mainx p{
   color: black;
