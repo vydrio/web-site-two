@@ -18,11 +18,11 @@ export default class Contact extends Component {
           <div className={classes.PartTwo}>
             <div className={classes.Sentences}>
               <img src={location} alt='location icon'/>
-              <p><strong>Location:</strong> Dallas, Tx.</p>
+              <p><strong>Location:</strong> Ennis, Texas USA</p>
             </div>
             <div className={classes.Sentences}>
               <img src={phone} alt='location icon'/>
-              <p><strong>Phone:</strong> coming soon...</p>
+              <p><strong>Phone:</strong> +1 214 868 0848</p>
             </div>
             <div className={classes.Sentences}>
               <img src={mail} alt='location icon'/>
